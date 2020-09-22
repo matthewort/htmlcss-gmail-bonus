@@ -1,0 +1,66 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+}
+/* icona e testo */
+.logo {
+  width: 100px;
+}
+.logo-text {
+  font-size: 150px;
+}
+/* avviso mail non lette */
+#unread-count {
+  color: red;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 5px;
+}
+hr {
+  background-color: white;
+  color: white
+  border: solid 2px white;
+  height: 3px;
+}
+/* oggetto mail */
+.subject {
+  color: black;
+  font-weight: bold;
+}
+/* colore righe tabella */
+.read {
+  background-color: lightgrey;
+}
+.unread {
+  background-color: white;
+}
+/* corpo mail */
+.body {
+  color: grey;
+}
+/* riga sinistra */
+.row-left {
+  display: inline-block;
+  width: 30%;
+}
+/* riga destra */
+.row-right {
+  display: inline-block;
+  width: 68%;
+}
+/* stellina */
+.star {
+  color: orange;
+}
+footer {
+  text-align: center;
+}
+#name-footer {
+  font-size: 25px
+}
